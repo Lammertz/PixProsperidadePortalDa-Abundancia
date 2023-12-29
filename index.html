@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:image" content="https://www.leiuniversal.com.br/wp-content/uploads/2023/05/05-Como-a-Lei-da-Atracao-Funciona.jpg">
+    <meta name="description" content="Ative a Lei do Retorno enviando R$1. Semeie abundância e colha a prosperidade! A cada contribuição, uma mensagem positiva para iluminar seu caminho.">
+
+    <!-- Meta tags Open Graph para compartilhamento em redes sociais -->
+    <meta property="og:title" content="Pix da Prosperidade">
+    <meta property="og:description" content="Ative a Lei do Retorno enviando R$1. Semeie abundância e colha a prosperidade! A cada contribuição, uma mensagem positiva para iluminar seu caminho.">
+    <meta property="og:image" content="https://www.leiuniversal.com.br/wp-content/uploads/2023/05/05-Como-a-Lei-da-Atracao-Funciona.jpg">
+    <meta property="og:url" content="https://lammertz.github.io/PixProsperidadePortalDa-Abundancia/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
     <link rel="icon" href="https://img.freepik.com/fotos-premium/enigma-cosmico-de-fundo-do-espaco-capturando-os-misterios-de-um-buraco-negro-no-espaco-ia-geradora_894903-8024.jpg?size=626&ext=jpg" type="image/x-icon">
+
+    <!-- Seus outros metadados continuam aqui -->
     <title>Pix da Prosperidade</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adicione estilos para as mensagens positivas */
+        .positive-messages-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .positive-message {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <audio id="backgroundAudio" autoplay loop>
         <source src="vocal.mp3" type="audio/mp3">
         Seu navegador não suporta o elemento de áudio.
     </audio>
-    
+
     <div class="wrapper">
         <video autoplay loop muted>
             <source src="universo.mp4" type="video/mp4">
@@ -30,12 +61,22 @@
                 <button onclick="copyPixCode()">Copiar</button>
             </div>
         </div>
+
+        <!-- Container para mensagens de positividade -->
+        <div class="positive-messages-container" id="positiveMessagesContainer">
+            <!-- Mensagens Positivas -->
+            <div class="positive-message">Você é capaz de atrair prosperidade!</div>
+            <div class="positive-message">A abundância está a caminho!</div>
+            <div class="positive-message">Cada Pix é uma semente de sucesso!</div>
+            <div class="positive-message">Visualize a riqueza em sua vida!</div>
+            <div class="positive-message">O universo conspira a seu favor!</div>
+        </div>
     </div>
-    <!-- index.html -->
-<!-- Adicione o link para os Termos de Responsabilidade -->
-<footer class="footer">
-    <p>&copy; Lei da Atração Abundante | <a href="terms.html">Termos de Responsabilidade</a></p>
-</footer>
+
+    <!-- Adicione o link para os Termos de Responsabilidade -->
+    <footer class="footer">
+        <p>&copy; Lei da Atração Abundante | <a href="terms.html">Termos de Responsabilidade</a></p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
