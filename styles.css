@@ -40,3 +40,34 @@ video {
     text-align: center;
     color: #fff;
 }
+/* Restante do seu estilo existente */
+
+/* Adicione estilos para as mensagens positivas */
+.positive-messages-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.positive-message {
+    background-color: rgba(76, 175, 80, 0.8); /* Cor verde com opacidade */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 90%; /* Limita a largura da mensagem para 90% da tela */
+    word-wrap: break-word; /* Quebra de palavra para longas mensagens */
+    font-size: 16px;
+    font-weight: bold;
+    animation: fadeOut 10s ease-out; /* Animação de fade-out em 10 segundos (mais lenta) */
+}
+
+/* Adiciona uma animação de fade-out */
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
